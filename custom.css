@@ -1,0 +1,32 @@
+.monai-medium {
+    background-color: rgb(5, 120, 158) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.monai-light {
+    background-color: rgb(230, 243, 247) !important;
+    color: rgb(75, 85, 99) !important;
+}
+
+.external-link:after {
+    padding-left: 0.5rem;
+    content: url(./images/external_link_icon.png);
+}
+
+.header {
+    max-height: 600px;
+}
+
+.hero {
+    z-index: -1;
+    max-height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        max-height: 450px !important;
+    }
+    .hero {
+        max-height: 450px !important;
+    }
+}
