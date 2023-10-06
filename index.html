@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The MONAI Tutorial is happening at MICCAI 2023 on October 8th, from 8am to 3pm PDT. Learn more about Developing for the Medical AI Project Lifecycle with MONAI">
     <title>Project MONAI - MICCAI 2023 - Tutorial</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="custom.css" />
@@ -16,13 +15,13 @@
     <nav class="monai-medium fixed z-50 w-full bg-white top-0 flex flex-wrap items-center justify-between px-2 py-3 shadow-lg">
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-          <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-slate-700">Project MONAI - MICCAI 2023 - Tutorial</a></div>
+          <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-slate-300">Project MONAI - MICCAI 2023 - Tutorial</a></div>
         <div class="lg:flex flex-grow items-center hidden">
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto ">
-            <li class="nav-item"><a href="#background " class="px-3 py-2 flex items-center text-xs uppercase font-bold text-slate-700 hover:text-slate-500"><span class="ml-2">Background</span></a></li>
-            <li class="nav-item"><a href="#goals " class="px-3 py-2 flex items-center text-xs uppercase font-bold text-slate-700 hover:text-slate-500"><span class="ml-2">Learning Goals</span></a></li>
-            <li class="nav-item"><a href="#speakers " class="px-3 py-2 flex items-center text-xs uppercase font-bold text-slate-700 hover:text-slate-500"><span class="ml-2">Speakers</span></a></li>
-            <li class="nav-item"><a href="#agenda " class="px-3 py-2 flex items-center text-xs uppercase font-bold text-slate-700 hover:text-slate-500"><span class="ml-2">Agenda</span></a></li>
+            <li class="nav-item"><a href="#background " class="px-3 py-2 flex items-center text-xs uppercase font-bold text-slate-300 hover:text-slate-100"><span class="ml-2">Background</span></a></li>
+            <li class="nav-item"><a href="#goals " class="px-3 py-2 flex items-center text-xs uppercase font-bold text-slate-300 hover:text-slate-100"><span class="ml-2">Learning Goals</span></a></li>
+            <li class="nav-item"><a href="#speakers " class="px-3 py-2 flex items-center text-xs uppercase font-bold text-slate-300 hover:text-slate-100"><span class="ml-2">Speakers</span></a></li>
+            <li class="nav-item"><a href="#agenda " class="px-3 py-2 flex items-center text-xs uppercase font-bold text-slate-300 hover:text-slate-100"><span class="ml-2">Agenda</span></a></li>
           </ul>
         </div>
       </div>
@@ -108,176 +107,203 @@
 
 
     <section id="speakers" class="py-16 monai-light">
-      <div class="container mx-auto px-4 ">
-        <div class="flex flex-wrap justify-center text-center mb-12 ">
-          <div class="w-full">
-            <h2 class="text-4xl font-semibold ">Speakers</h2>
-          </div>
-        </div>
-        <div class="flex flex-wrap ">
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
-            <div>
-              <img alt="Wenqi Li Photo" src="./images/WL.png" class="shadow-lg rounded-full max-w-full mx-auto " style="max-width: 120px; ">
-              <div class="pt-6 text-center ">
-                <a href="https://research.nvidia.com/person/wenqi-li" target="_blank">
-                  <h5 class="text-xl font-bold mb-2 external-link ">Wenqi Li</h5>
-                </a>
-                <p class="mt-2 text-sm uppercase font-semibold">Senior Applied Research Scientist, NVIDIA</p>
-                <p class="mt-1 px-2 text-sm uppercase font-semibold monai-medium">Lead Architect for MONAI Core</p>
-                <p class="mt-4 text-sm">
-                  Wenqi Li is a senior applied research scientist at NVIDIA, focusing on computer vision and machine learning techniques for medical image analysis. Wenqi received his Ph.D. in applied computing from The University of Dundee (Scotland, UK) in 2015.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
-            <div>
-              <img alt="Eric Kerfoot Photo" src="./images/EK.jpg" class="shadow-lg rounded-full max-w-full mx-auto " style="max-width: 120px; ">
-              <div class="pt-6 text-center ">
-                <a href="https://www.kcl.ac.uk/people/eric-kerfoot" target="_blank">
-                  <h5 class="text-xl font-bold mb-2 external-link ">Eric Kerfoot</h5>
-                </a>
-                <h5 class="text-xl font-bold mb-2 "></h5>
-                <p class="mt-2 text-sm uppercase font-semibold">Software Architect in Medical Engineering, King's College London</p>
-                <p class="mt-1 px-2 text-sm uppercase font-semibold monai-medium">MONAI Core Lead Developer</p>
-                <p class="mt-4 text-sm">
-                  Eric Kerfoot is an experienced research software engineer with a demonstrated history of working in scientific research and scientific software development. Strong professional skilled in Mathematical Modeling, 3D Visualization, Python, Computer Science,
-                  Deep Learning, and Data Analysis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
-            <div>
-              <img alt="Nic Ma Photo" src="./images/AR.jpg" class="shadow-lg rounded-full max-w-full mx-auto " style="max-width: 120px; ">
-              <div class="pt-6 text-center ">
-                <a href="https://www.dkfz.de/en/imsy/team/people/Annika_Reinke.html" target="_blank">
-                  <h5 class="text-xl font-bold mb-2 external-link ">Annika Reinke</h5>
-                </a>
-                <p class="mt-2 text-sm uppercase font-semibold">Post-Doctoral Researcher, DKFZ</p>
-                <p class="mt-1 px-2 text-sm uppercase font-semibold monai-medium">Metrics Reloaded Developer</p>
-                <p class="mt-4 text-sm">
-                  Annika Reinke joined the division of Intelligent Medical Systems at the German Cancer Research Center (DKFZ) to adapt mathematical concepts to societally relevant topics, like scientific benchmarking and validation. Having published disruptive findings on biomedical image analysis challenges in Nature Communications, she is a founding member of the initiative of Biomedical Image Analysis ChallengeS (BIAS) aiming for bringing biomedical image analysis challenges to the next level of quality. She serves as the secretary of the MICCAI special interest group on biomedical challenges and as an active member and taskforce lead of the MONAI working group on evaluation, reproducibility and benchmarking.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
-            <div>
-              <img alt="Holger Roth Photo" src="./images/ADP.jpg" class="shadow-lg rounded-full max-w-full mx-auto " style="max-width: 120px; ">
-              <div class="pt-6 text-center ">
-                <a href="https://www.linkedin.com/in/diazandr3s/" target="_blank">
-                  <h5 class="text-xl font-bold mb-2 external-link ">Andres Diaz-Pinto</h5>
-                </a>
-                <p class="mt-2 text-sm uppercase font-semibold">Technical Marketing Engineer, NVIDIA</p>
-                <p class="mt-1 px-2 text-sm uppercase font-semibold monai-medium">MONAI Label Co-Creator</p>
-                <p class="mt-4 text-sm">
-                  Andres is a multidisciplinary machine learning & deep learning researcher with 5+ years of experience developing AI systems for healthcare applications. He is the co-creator of MONAI Label. Currently, a Technical Marketing Engineer at NVIDIA and a Senior Visiting Research Fellow at King's College London.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
-            <div>
-              <img alt="Seyed-Ahmad Ahmadi Zephyr Photo" src="./images/DY.jpeg" class="shadow-lg rounded-full max-w-full mx-auto " style="max-width: 120px; ">
-              <div class="pt-6 text-center ">
-                <a href="https://research.nvidia.com/person/dong-yang" target="_blank">
-                  <h5 class="text-xl font-bold mb-2 external-link ">Dong Yang</h5>
-                </a>
-                <p class="mt-2 text-sm uppercase font-semibold">Applied Research Scientist, NVIDIA</p>
-                <p class="mt-1 px-2 text-sm uppercase font-semibold monai-medium">MONAI Developer</p>
-                <p class="mt-4 text-sm">
-                  Dong Yang is a senior applied research scientist at AI-Infra of NVIDIA. He specializes in medical image processing, and is currently working on deep learning methods to solve medical imaging problems, with the goal of improving the effectiveness of clinical workflows.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
-            <div>
-              <img alt="Selnur Erdal Photo" src="./images/SE.jpg" class="shadow-lg rounded-full max-w-full mx-auto " style="max-width: 120px; ">
-              <div class="pt-6 text-center ">
-                <a href="https://www.mayoclinic.org/biographies/erdal-barbaros-selnur-s-ph-d/bio-20490603" target="_blank">
-                  <h5 class="text-xl font-bold mb-2 external-link ">Selnur Erdal</h5>
-                </a>
-                <p class="mt-2 text-sm uppercase font-semibold">Technical Director, Center for Augmented Intelligence in Imaging Department of Radiology, Mayo Clinic</p>
-                <p class="mt-1 px-2 text-sm uppercase font-semibold monai-medium">MONAI Deploy Group Lead</p>
-                <p class="mt-4 text-sm">
-                  Dr. Erdal received his Ph.D. in Electrical and Computer Engineering from The Ohio State University and currently serves as Technical Director for the Center for Augmented Intelligence in Imaging, Department of Radiology at Mayo Clinic.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
-            <div>
-              <img alt="Vikash Gupta Photo" src="./images/VK.jpg" class="shadow-lg rounded-full max-w-full mx-auto " style="max-width: 120px; ">
-              <div class="pt-6 text-center ">
-                <a href="https://sites.google.com/site/guptavikash8972/" target="_blank">
-                  <h5 class="text-xl font-bold mb-2 external-link ">Vikash Gupta</h5>
-                </a>
-                <p class="mt-2 text-sm uppercase font-semibold">Assistant Professor of Radiology, Mayo Clinic</p>
-                <p class="mt-1 px-2 text-sm uppercase font-semibold monai-medium">MONAI Deploy Lead Developer</p>
-                <p class="mt-4 text-sm">
-                  Vikash Gupta is a data science analyst at the Department of Radiology, Mayo Clinic Florida. He works on building tools for deep learning and radiology. Prior to Mayo Clinic, he worked as a research scientist at The Ohio State University. His research
-                  interests and publications include data augmentation techniques for medical imaging, democratizing AI for healthcare, cardiac computed tomography, X-rays, mammography, fracture detection and super resolution for diffusion weighted images.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
-            <div>
-              <img alt="Michael Zephyr Photo" src="./images/MZ.jpg" class="shadow-lg rounded-full max-w-full mx-auto " style="max-width: 120px; ">
-              <div class="pt-6 text-center ">
-                <a href="https://www.linkedin.com/in/michaeljzephyr/" target="_blank">
-                  <h5 class="text-xl font-bold mb-2 external-link ">Michael Zephyr</h5>
-                </a>
-                <p class="mt-2 text-sm uppercase font-semibold">Developer Evangelist, NVIDIA</p>
-                <p class="mt-1 px-2 text-sm uppercase font-semibold monai-medium">MONAI Adoption and Outreach Lead</p>
-                <p class="mt-4 text-sm">
-                  Michael Zephyr is a developer evangelist on the NVIDIA Clara team and is responsible for helping design the developer experience for all NVIDIA Clara products. He develops and presents content through blog posts, webinars, and conferences that help developers
-                  quickly get started. Michael received his master's in computer science specializing in machine learning and interactive intelligence from Georgia Tech University.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="w-full">
+        <h2 class="text-4xl font-semibold text-center mb-12">Speakers</h2>
       </div>
+
+      <div class="container mx-auto flex flex-wrap justify-center">
+        <!-- Speaker 1 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/michael.jpg" alt="Michael Zephyr" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Michael Zephyr</h3>
+                <p class="text-gray-600 text-sm capitalize">Technical Product Manager, NVIDIA</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 2 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/seyed.jpg" alt="Seyed-Ahmad Ahmadi" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Seyed-Ahmad Ahmadi</h3>
+                <p class="text-gray-600 text-sm capitalize">Senior Solution Architect, NVIDIA</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 3 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/andres.jpg" alt="Andres Diaz-Pinto" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Andres Diaz-Pinto</h3>
+                <p class="text-gray-600 text-sm capitalize">Technical Marketing Engineer, NVIDIA</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 4 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/vikash.jpg" alt="Vikash Gupta" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Vikash Gupta</h3>
+                <p class="text-gray-600 text-sm capitalize">Assistant Professor of Radiology, Mayo Clinic</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 5 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/annika.jpg" alt="Annika Reinke" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Annika Reinke</h3>
+                <p class="text-gray-600 text-sm capitalize">Post-Doctoral Researcher, DKFZ</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 6 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/mark.jpg" alt="Mark Graham" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Mark Graham</h3>
+                <p class="text-gray-600 text-sm capitalize">Research Fellow, King's College London</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 7 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/andriy.jpg" alt="Andriy Myronenko" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Andriy Myronenko</h3>
+                <p class="text-gray-600 text-sm capitalize">Senior Researcher, NVIDIA</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 8 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/nobu.jpg" alt="Nobuhiko Hata" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Nobuhiko Hata</h3>
+                <p class="text-gray-600 text-sm capitalize">Professor, Harvard Medical School and Director of Innovation, Radiology Research Administration, Brigham and Women's Hospital</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 9 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/franklin.jpg" alt="Franklin King" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Franklin King</h3>
+                <p class="text-gray-600 text-sm capitalize">Senior Research Engineer, Brigham and Women's Hospital</p>
+            </div>
+        </div>
+    
+        <!-- Speaker 10 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 mb-4 mx-2 text-center">
+            <div>
+                <img src="images/marc.jpg" alt="Marc Edgar" class="mx-auto h-24 w-24 rounded-full">
+            </div>
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold">Marc Edgar</h3>
+                <p class="text-gray-600 text-sm capitalize">Senior Alliance Manager for Medical Instruments, NVIDIA</p>
+            </div>
+        </div>
+    </div>
+
     </section>
 
     <section id="agenda" class="py-16 ">
-      <div class="container mx-auto px-4 ">
-        <div class="flex flex-wrap items-center ">
-          <div class="w-full px-4 ">
-            <div class="flex flex-wrap justify-center text-center mb-12 ">
-              <div class="w-full">
-                <h2 class="text-4xl font-semibold ">Agenda</h2>
-              </div>
+      <div class="w-full">
+        <h2 class="text-4xl font-semibold text-center mb-12">Agenda</h2>
+      </div>      
+      <div class="container mx-auto p-4 sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+        <!-- Agenda Item 1 -->
+        <div class="flex mb-4">
+            <div class="w-32 text-gray-600">8 am - 10 am</div>
+            <div>
+                <h3 class="text-xl font-semibold">MONAI Intro - 15 minutes</h3>
+                <p class="text-gray-600">Welcome and Introduction to MONAI</p>
+                <h3 class="text-xl font-semibold mt-2">MONAI Core - 1 hour 45 minutes</h3>
+                <ul class="list-disc list-inside text-gray-600">
+                  <li>Intro to MONAI Core</li>
+                  <li>End-to-End Training with MONAI</li>
+              </ul>
             </div>
-            <p class="text-lg font-semibold leading-relaxed mt-2 text-gray-700">Introduction</p>
-            <ul class="mb-4 ml-4">
-              <li class="list-disc list-inside">MONAI Overview</li>
-            </ul>
-            <p class="text-lg font-semibold leading-relaxed mt-2 text-gray-700">MONAI Core</p>
-            <ul class="mb-4 ml-4">
-              <li class="list-disc list-inside">MONAI Core Intro</li>
-              <li class="list-disc list-inside">MONAI Architecture</li>
-              <li class="list-disc list-inside">MONAI Bundles and Model Zoo</li>
-              <li class="list-disc list-inside">Hands-on: MONAI Core with MedNIST</li>
-            </ul>
-            <p class="text-lg font-semibold leading-relaxed mt-2 text-gray-700">MONAI Label</p>
-            <ul class="mb-4 ml-4">
-              <li class="list-disc list-inside">MONAI Label Overview</li>
-              <li class="list-disc list-inside">Demo: 3D Slicer + MONAI Label</li>
-            </ul>
-            <p class="text-lg font-semibold leading-relaxed mt-2 text-gray-700">MONAI Deploy</p>
-            <ul class="mb-4 ml-4">
-              <li class="list-disc list-inside">MONAI Deploy Overview</li>
-              <li class="list-disc list-inside">MONAI Deploy App SDK - Operators, Bundles, and MAPs</li>
-              <li class="list-disc list-inside">Demo: MONAI Deploy Full Deployment Demo covering standards</li>
-            </ul>
-          </div>
         </div>
-      </div>
+
+        <!-- Agenda Item 2 -->
+        <div class="flex mb-4">
+            <div class="w-32 text-gray-600">10 am - 10:30 am</div>
+            <div>
+                <h3 class="text-xl font-semibold">Coffee Break</h3>
+                <p class="text-gray-600">Enjoy some refreshments</p>
+            </div>
+        </div>
+
+        <!-- Agenda Item 3 -->
+        <div class="flex mb-4">
+            <div class="w-32 text-gray-600">10:30 am - 12:30 pm</div>
+            <div>
+                <h3 class="text-xl font-semibold">MONAI Label - 1 hour</h3>
+                <p class="text-gray-600">Introduction to MONAI Label</p>
+                <ul class="list-disc list-inside text-gray-600">
+                  <li>Intro to MONAI Label</li>
+                  <li>Demo: 3D Slicer/OHIFv3 + MONAI Label</li>
+                </ul>                  
+                <h3 class="text-xl font-semibold mt-2">MONAI Deploy - 1 hour</h3>
+                <ul class="list-disc list-inside text-gray-600">
+                  <li>Overview of MONAI Deploy</li>
+                </ul>                     
+            </div>
+        </div>
+
+        <!-- Agenda Item 4 -->
+        <div class="flex mb-4">
+            <div class="w-32 text-gray-600">12:30 pm - 1:30 pm</div>
+            <div>
+                <h3 class="text-xl font-semibold">Lunch</h3>
+                <p class="text-gray-600">Enjoy your lunch break</p>
+            </div>
+        </div>
+
+        <!-- Agenda Item 5 -->
+        <div class="flex mb-4">
+            <div class="w-32 text-gray-600">1:30 pm - 3:30 pm</div>
+            <div>
+                <h3 class="text-xl font-semibold">MONAI Research topics:</h3>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>Metrics Reloaded</li>
+                    <li>Generative AI</li>
+                    <li>Auto3DSeg</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Agenda Item 6 -->
+        <div class="flex mb-4">
+            <div class="w-32 text-gray-600">4 pm - 5:10 pm</div>
+            <div>
+                <h3 class="text-xl font-semibold">MONAI Stream - 40 minutes</h3>
+                <p class="text-gray-600">Introduction to MONAI Stream</p>
+                <h3 class="text-xl font-semibold mt-2">Contributing to MONAI - 20 minutes</h3>
+                <p class="text-gray-600">Learn how to contribute and closing remarks</p>
+                <h3 class="text-xl font-semibold mt-2">Closing Remarks - 10 minutes</h3>
+            </div>
+        </div>
+    </div>
     </section>
 
 
